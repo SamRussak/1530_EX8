@@ -29,6 +29,9 @@ public class Exercise8 {
 
 
         double piIHope = (totalIn/ (float) totalThreadsIterations)*4;
+        System.out.println("Total: "+totalThreadsIterations);
+        System.out.println("Total In: "+totalIn);
+        System.out.println("Ratio: "+(totalIn/ (float) totalThreadsIterations));
         System.out.println("Pi Estimate: "+piIHope);
 
 
